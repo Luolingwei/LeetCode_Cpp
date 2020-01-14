@@ -1,2 +1,3 @@
 # LeetCode_Cpp
-Algorithm practice in C++
+This is C++ version of my LeetCode practice
+

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Q35.dir/Binary_Search/Q35_Search_Insert_Position.cpp.obj"
+  "CMakeFiles/Q35.dir/BinarySearch/Q35_Search_Insert_Position.cpp.obj"
   "Q35.exe"
   "Q35.exe.manifest"
   "Q35.pdb"

@@ -56,27 +56,27 @@ include CMakeFiles/Q35.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Q35.dir/flags.make
 
-CMakeFiles/Q35.dir/Binary_Search/Q35_Search_Insert_Position.cpp.obj: CMakeFiles/Q35.dir/flags.make
-CMakeFiles/Q35.dir/Binary_Search/Q35_Search_Insert_Position.cpp.obj: ../Binary\ Search/Q35_Search\ Insert\ Position.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Program\LeetCode_Cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Q35.dir/Binary_Search/Q35_Search_Insert_Position.cpp.obj"
-	E:\DevCPP\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Q35.dir\Binary_Search\Q35_Search_Insert_Position.cpp.obj -c "D:\Program\LeetCode_Cpp\Binary Search\Q35_Search Insert Position.cpp"
+CMakeFiles/Q35.dir/BinarySearch/Q35_Search_Insert_Position.cpp.obj: CMakeFiles/Q35.dir/flags.make
+CMakeFiles/Q35.dir/BinarySearch/Q35_Search_Insert_Position.cpp.obj: ../BinarySearch/Q35_Search\ Insert\ Position.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Program\LeetCode_Cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Q35.dir/BinarySearch/Q35_Search_Insert_Position.cpp.obj"
+	E:\DevCPP\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Q35.dir\BinarySearch\Q35_Search_Insert_Position.cpp.obj -c "D:\Program\LeetCode_Cpp\BinarySearch\Q35_Search Insert Position.cpp"
 
-CMakeFiles/Q35.dir/Binary_Search/Q35_Search_Insert_Position.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Q35.dir/Binary_Search/Q35_Search_Insert_Position.cpp.i"
-	E:\DevCPP\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Program\LeetCode_Cpp\Binary Search\Q35_Search Insert Position.cpp" > CMakeFiles\Q35.dir\Binary_Search\Q35_Search_Insert_Position.cpp.i
+CMakeFiles/Q35.dir/BinarySearch/Q35_Search_Insert_Position.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Q35.dir/BinarySearch/Q35_Search_Insert_Position.cpp.i"
+	E:\DevCPP\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Program\LeetCode_Cpp\BinarySearch\Q35_Search Insert Position.cpp" > CMakeFiles\Q35.dir\BinarySearch\Q35_Search_Insert_Position.cpp.i
 
-CMakeFiles/Q35.dir/Binary_Search/Q35_Search_Insert_Position.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Q35.dir/Binary_Search/Q35_Search_Insert_Position.cpp.s"
-	E:\DevCPP\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Program\LeetCode_Cpp\Binary Search\Q35_Search Insert Position.cpp" -o CMakeFiles\Q35.dir\Binary_Search\Q35_Search_Insert_Position.cpp.s
+CMakeFiles/Q35.dir/BinarySearch/Q35_Search_Insert_Position.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Q35.dir/BinarySearch/Q35_Search_Insert_Position.cpp.s"
+	E:\DevCPP\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Program\LeetCode_Cpp\BinarySearch\Q35_Search Insert Position.cpp" -o CMakeFiles\Q35.dir\BinarySearch\Q35_Search_Insert_Position.cpp.s
 
 # Object files for target Q35
 Q35_OBJECTS = \
-"CMakeFiles/Q35.dir/Binary_Search/Q35_Search_Insert_Position.cpp.obj"
+"CMakeFiles/Q35.dir/BinarySearch/Q35_Search_Insert_Position.cpp.obj"
 
 # External object files for target Q35
 Q35_EXTERNAL_OBJECTS =
 
-Q35.exe: CMakeFiles/Q35.dir/Binary_Search/Q35_Search_Insert_Position.cpp.obj
+Q35.exe: CMakeFiles/Q35.dir/BinarySearch/Q35_Search_Insert_Position.cpp.obj
 Q35.exe: CMakeFiles/Q35.dir/build.make
 Q35.exe: CMakeFiles/Q35.dir/linklibs.rsp
 Q35.exe: CMakeFiles/Q35.dir/objects1.rsp

@@ -123,6 +123,19 @@ Q1/fast:
 .PHONY : Q1/fast
 
 #=============================================================================
+# Target rules for targets named Q1087
+
+# Build rule for target.
+Q1087: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Q1087
+.PHONY : Q1087
+
+# fast build rule for target.
+Q1087/fast:
+	$(MAKE) -f CMakeFiles\Q1087.dir\build.make CMakeFiles/Q1087.dir/build
+.PHONY : Q1087/fast
+
+#=============================================================================
 # Target rules for targets named Q35
 
 # Build rule for target.
@@ -175,32 +188,32 @@ Array/Q1_Two_Sum.cpp.s:
 	$(MAKE) -f CMakeFiles\Q1.dir\build.make CMakeFiles/Q1.dir/Array/Q1_Two_Sum.cpp.s
 .PHONY : Array/Q1_Two_Sum.cpp.s
 
-Binary_Search/Q35_Search_Insert_Position.obj: Binary_Search/Q35_Search_Insert_Position.cpp.obj
+BinarySearch/Q35_Search_Insert_Position.obj: BinarySearch/Q35_Search_Insert_Position.cpp.obj
 
-.PHONY : Binary_Search/Q35_Search_Insert_Position.obj
+.PHONY : BinarySearch/Q35_Search_Insert_Position.obj
 
 # target to build an object file
-Binary_Search/Q35_Search_Insert_Position.cpp.obj:
-	$(MAKE) -f CMakeFiles\Q35.dir\build.make CMakeFiles/Q35.dir/Binary_Search/Q35_Search_Insert_Position.cpp.obj
-.PHONY : Binary_Search/Q35_Search_Insert_Position.cpp.obj
+BinarySearch/Q35_Search_Insert_Position.cpp.obj:
+	$(MAKE) -f CMakeFiles\Q35.dir\build.make CMakeFiles/Q35.dir/BinarySearch/Q35_Search_Insert_Position.cpp.obj
+.PHONY : BinarySearch/Q35_Search_Insert_Position.cpp.obj
 
-Binary_Search/Q35_Search_Insert_Position.i: Binary_Search/Q35_Search_Insert_Position.cpp.i
+BinarySearch/Q35_Search_Insert_Position.i: BinarySearch/Q35_Search_Insert_Position.cpp.i
 
-.PHONY : Binary_Search/Q35_Search_Insert_Position.i
+.PHONY : BinarySearch/Q35_Search_Insert_Position.i
 
 # target to preprocess a source file
-Binary_Search/Q35_Search_Insert_Position.cpp.i:
-	$(MAKE) -f CMakeFiles\Q35.dir\build.make CMakeFiles/Q35.dir/Binary_Search/Q35_Search_Insert_Position.cpp.i
-.PHONY : Binary_Search/Q35_Search_Insert_Position.cpp.i
+BinarySearch/Q35_Search_Insert_Position.cpp.i:
+	$(MAKE) -f CMakeFiles\Q35.dir\build.make CMakeFiles/Q35.dir/BinarySearch/Q35_Search_Insert_Position.cpp.i
+.PHONY : BinarySearch/Q35_Search_Insert_Position.cpp.i
 
-Binary_Search/Q35_Search_Insert_Position.s: Binary_Search/Q35_Search_Insert_Position.cpp.s
+BinarySearch/Q35_Search_Insert_Position.s: BinarySearch/Q35_Search_Insert_Position.cpp.s
 
-.PHONY : Binary_Search/Q35_Search_Insert_Position.s
+.PHONY : BinarySearch/Q35_Search_Insert_Position.s
 
 # target to generate assembly for a file
-Binary_Search/Q35_Search_Insert_Position.cpp.s:
-	$(MAKE) -f CMakeFiles\Q35.dir\build.make CMakeFiles/Q35.dir/Binary_Search/Q35_Search_Insert_Position.cpp.s
-.PHONY : Binary_Search/Q35_Search_Insert_Position.cpp.s
+BinarySearch/Q35_Search_Insert_Position.cpp.s:
+	$(MAKE) -f CMakeFiles\Q35.dir\build.make CMakeFiles/Q35.dir/BinarySearch/Q35_Search_Insert_Position.cpp.s
+.PHONY : BinarySearch/Q35_Search_Insert_Position.cpp.s
 
 DepthFirstSearch/Q200_Number_of_Islands.obj: DepthFirstSearch/Q200_Number_of_Islands.cpp.obj
 
@@ -229,6 +242,36 @@ DepthFirstSearch/Q200_Number_of_Islands.cpp.s:
 	$(MAKE) -f CMakeFiles\Q200.dir\build.make CMakeFiles/Q200.dir/DepthFirstSearch/Q200_Number_of_Islands.cpp.s
 .PHONY : DepthFirstSearch/Q200_Number_of_Islands.cpp.s
 
+String/Q1087_Brace_Expansion.obj: String/Q1087_Brace_Expansion.cpp.obj
+
+.PHONY : String/Q1087_Brace_Expansion.obj
+
+# target to build an object file
+String/Q1087_Brace_Expansion.cpp.obj:
+	$(MAKE) -f CMakeFiles\Q1.dir\build.make CMakeFiles/Q1.dir/String/Q1087_Brace_Expansion.cpp.obj
+	$(MAKE) -f CMakeFiles\Q1087.dir\build.make CMakeFiles/Q1087.dir/String/Q1087_Brace_Expansion.cpp.obj
+.PHONY : String/Q1087_Brace_Expansion.cpp.obj
+
+String/Q1087_Brace_Expansion.i: String/Q1087_Brace_Expansion.cpp.i
+
+.PHONY : String/Q1087_Brace_Expansion.i
+
+# target to preprocess a source file
+String/Q1087_Brace_Expansion.cpp.i:
+	$(MAKE) -f CMakeFiles\Q1.dir\build.make CMakeFiles/Q1.dir/String/Q1087_Brace_Expansion.cpp.i
+	$(MAKE) -f CMakeFiles\Q1087.dir\build.make CMakeFiles/Q1087.dir/String/Q1087_Brace_Expansion.cpp.i
+.PHONY : String/Q1087_Brace_Expansion.cpp.i
+
+String/Q1087_Brace_Expansion.s: String/Q1087_Brace_Expansion.cpp.s
+
+.PHONY : String/Q1087_Brace_Expansion.s
+
+# target to generate assembly for a file
+String/Q1087_Brace_Expansion.cpp.s:
+	$(MAKE) -f CMakeFiles\Q1.dir\build.make CMakeFiles/Q1.dir/String/Q1087_Brace_Expansion.cpp.s
+	$(MAKE) -f CMakeFiles\Q1087.dir\build.make CMakeFiles/Q1087.dir/String/Q1087_Brace_Expansion.cpp.s
+.PHONY : String/Q1087_Brace_Expansion.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -237,18 +280,22 @@ help:
 	@echo ... depend
 	@echo ... Q1
 	@echo ... edit_cache
+	@echo ... Q1087
 	@echo ... Q35
 	@echo ... Q200
 	@echo ... rebuild_cache
 	@echo ... Array/Q1_Two_Sum.obj
 	@echo ... Array/Q1_Two_Sum.i
 	@echo ... Array/Q1_Two_Sum.s
-	@echo ... Binary_Search/Q35_Search_Insert_Position.obj
-	@echo ... Binary_Search/Q35_Search_Insert_Position.i
-	@echo ... Binary_Search/Q35_Search_Insert_Position.s
+	@echo ... BinarySearch/Q35_Search_Insert_Position.obj
+	@echo ... BinarySearch/Q35_Search_Insert_Position.i
+	@echo ... BinarySearch/Q35_Search_Insert_Position.s
 	@echo ... DepthFirstSearch/Q200_Number_of_Islands.obj
 	@echo ... DepthFirstSearch/Q200_Number_of_Islands.i
 	@echo ... DepthFirstSearch/Q200_Number_of_Islands.s
+	@echo ... String/Q1087_Brace_Expansion.obj
+	@echo ... String/Q1087_Brace_Expansion.i
+	@echo ... String/Q1087_Brace_Expansion.s
 .PHONY : help
 
 

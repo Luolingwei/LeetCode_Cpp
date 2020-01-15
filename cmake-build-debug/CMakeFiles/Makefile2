@@ -54,12 +54,14 @@ CMAKE_BINARY_DIR = D:\Program\LeetCode_Cpp\cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/Q1.dir/all
 all: CMakeFiles/Q35.dir/all
+all: CMakeFiles/Q200.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Q1.dir/clean
 clean: CMakeFiles/Q35.dir/clean
+clean: CMakeFiles/Q200.dir/clean
 
 .PHONY : clean
 
@@ -102,7 +104,7 @@ CMakeFiles/Q1.dir/clean:
 CMakeFiles/Q35.dir/all:
 	$(MAKE) -f CMakeFiles\Q35.dir\build.make CMakeFiles/Q35.dir/depend
 	$(MAKE) -f CMakeFiles\Q35.dir\build.make CMakeFiles/Q35.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\LeetCode_Cpp\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Q35"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\LeetCode_Cpp\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target Q35"
 .PHONY : CMakeFiles/Q35.dir/all
 
 # Build rule for subdir invocation for target.
@@ -121,6 +123,33 @@ Q35: CMakeFiles/Q35.dir/rule
 CMakeFiles/Q35.dir/clean:
 	$(MAKE) -f CMakeFiles\Q35.dir\build.make CMakeFiles/Q35.dir/clean
 .PHONY : CMakeFiles/Q35.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Q200.dir
+
+# All Build rule for target.
+CMakeFiles/Q200.dir/all:
+	$(MAKE) -f CMakeFiles\Q200.dir\build.make CMakeFiles/Q200.dir/depend
+	$(MAKE) -f CMakeFiles\Q200.dir\build.make CMakeFiles/Q200.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\LeetCode_Cpp\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Q200"
+.PHONY : CMakeFiles/Q200.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Q200.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\LeetCode_Cpp\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Q200.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\LeetCode_Cpp\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Q200.dir/rule
+
+# Convenience name for target.
+Q200: CMakeFiles/Q200.dir/rule
+
+.PHONY : Q200
+
+# clean rule for target.
+CMakeFiles/Q200.dir/clean:
+	$(MAKE) -f CMakeFiles\Q200.dir\build.make CMakeFiles/Q200.dir/clean
+.PHONY : CMakeFiles/Q200.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

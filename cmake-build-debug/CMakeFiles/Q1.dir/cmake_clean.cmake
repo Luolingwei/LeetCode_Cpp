@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Q1.dir/Q1_Two_Sum.cpp.obj"
+  "CMakeFiles/Q1.dir/Array/Q1_Two_Sum.cpp.obj"
   "Q1.exe"
   "Q1.exe.manifest"
   "Q1.pdb"

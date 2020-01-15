@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Program/LeetCode_Cpp/Q1_Two Sum.cpp" "D:/Program/LeetCode_Cpp/cmake-build-debug/CMakeFiles/Q1.dir/Q1_Two_Sum.cpp.obj"
+  "D:/Program/LeetCode_Cpp/Array/Q1_Two Sum.cpp" "D:/Program/LeetCode_Cpp/cmake-build-debug/CMakeFiles/Q1.dir/Array/Q1_Two_Sum.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

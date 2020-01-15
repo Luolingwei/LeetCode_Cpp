@@ -56,27 +56,27 @@ include CMakeFiles/Q1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Q1.dir/flags.make
 
-CMakeFiles/Q1.dir/Q1_Two_Sum.cpp.obj: CMakeFiles/Q1.dir/flags.make
-CMakeFiles/Q1.dir/Q1_Two_Sum.cpp.obj: ../Q1_Two\ Sum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Program\LeetCode_Cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Q1.dir/Q1_Two_Sum.cpp.obj"
-	E:\DevCPP\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Q1.dir\Q1_Two_Sum.cpp.obj -c "D:\Program\LeetCode_Cpp\Q1_Two Sum.cpp"
+CMakeFiles/Q1.dir/Array/Q1_Two_Sum.cpp.obj: CMakeFiles/Q1.dir/flags.make
+CMakeFiles/Q1.dir/Array/Q1_Two_Sum.cpp.obj: ../Array/Q1_Two\ Sum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Program\LeetCode_Cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Q1.dir/Array/Q1_Two_Sum.cpp.obj"
+	E:\DevCPP\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Q1.dir\Array\Q1_Two_Sum.cpp.obj -c "D:\Program\LeetCode_Cpp\Array\Q1_Two Sum.cpp"
 
-CMakeFiles/Q1.dir/Q1_Two_Sum.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Q1.dir/Q1_Two_Sum.cpp.i"
-	E:\DevCPP\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Program\LeetCode_Cpp\Q1_Two Sum.cpp" > CMakeFiles\Q1.dir\Q1_Two_Sum.cpp.i
+CMakeFiles/Q1.dir/Array/Q1_Two_Sum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Q1.dir/Array/Q1_Two_Sum.cpp.i"
+	E:\DevCPP\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Program\LeetCode_Cpp\Array\Q1_Two Sum.cpp" > CMakeFiles\Q1.dir\Array\Q1_Two_Sum.cpp.i
 
-CMakeFiles/Q1.dir/Q1_Two_Sum.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Q1.dir/Q1_Two_Sum.cpp.s"
-	E:\DevCPP\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Program\LeetCode_Cpp\Q1_Two Sum.cpp" -o CMakeFiles\Q1.dir\Q1_Two_Sum.cpp.s
+CMakeFiles/Q1.dir/Array/Q1_Two_Sum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Q1.dir/Array/Q1_Two_Sum.cpp.s"
+	E:\DevCPP\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Program\LeetCode_Cpp\Array\Q1_Two Sum.cpp" -o CMakeFiles\Q1.dir\Array\Q1_Two_Sum.cpp.s
 
 # Object files for target Q1
 Q1_OBJECTS = \
-"CMakeFiles/Q1.dir/Q1_Two_Sum.cpp.obj"
+"CMakeFiles/Q1.dir/Array/Q1_Two_Sum.cpp.obj"
 
 # External object files for target Q1
 Q1_EXTERNAL_OBJECTS =
 
-Q1.exe: CMakeFiles/Q1.dir/Q1_Two_Sum.cpp.obj
+Q1.exe: CMakeFiles/Q1.dir/Array/Q1_Two_Sum.cpp.obj
 Q1.exe: CMakeFiles/Q1.dir/build.make
 Q1.exe: CMakeFiles/Q1.dir/linklibs.rsp
 Q1.exe: CMakeFiles/Q1.dir/objects1.rsp

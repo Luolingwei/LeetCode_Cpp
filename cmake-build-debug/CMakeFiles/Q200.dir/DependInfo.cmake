@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Program/LeetCode_Cpp/Binary Search/Q35_Search Insert Position.cpp" "D:/Program/LeetCode_Cpp/cmake-build-debug/CMakeFiles/Q35.dir/Binary_Search/Q35_Search_Insert_Position.cpp.obj"
+  "D:/Program/LeetCode_Cpp/DepthFirstSearch/Q200_Number of Islands.cpp" "D:/Program/LeetCode_Cpp/cmake-build-debug/CMakeFiles/Q200.dir/DepthFirstSearch/Q200_Number_of_Islands.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

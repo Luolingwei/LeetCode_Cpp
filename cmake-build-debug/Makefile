@@ -161,6 +161,19 @@ Q200/fast:
 	$(MAKE) -f CMakeFiles\Q200.dir\build.make CMakeFiles/Q200.dir/build
 .PHONY : Q200/fast
 
+#=============================================================================
+# Target rules for targets named Q753
+
+# Build rule for target.
+Q753: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Q753
+.PHONY : Q753
+
+# fast build rule for target.
+Q753/fast:
+	$(MAKE) -f CMakeFiles\Q753.dir\build.make CMakeFiles/Q753.dir/build
+.PHONY : Q753/fast
+
 Array/Q1_Two_Sum.obj: Array/Q1_Two_Sum.cpp.obj
 
 .PHONY : Array/Q1_Two_Sum.obj
@@ -242,6 +255,33 @@ DepthFirstSearch/Q200_Number_of_Islands.cpp.s:
 	$(MAKE) -f CMakeFiles\Q200.dir\build.make CMakeFiles/Q200.dir/DepthFirstSearch/Q200_Number_of_Islands.cpp.s
 .PHONY : DepthFirstSearch/Q200_Number_of_Islands.cpp.s
 
+DepthFirstSearch/Q753_Cracking_the_Safe.obj: DepthFirstSearch/Q753_Cracking_the_Safe.cpp.obj
+
+.PHONY : DepthFirstSearch/Q753_Cracking_the_Safe.obj
+
+# target to build an object file
+DepthFirstSearch/Q753_Cracking_the_Safe.cpp.obj:
+	$(MAKE) -f CMakeFiles\Q753.dir\build.make CMakeFiles/Q753.dir/DepthFirstSearch/Q753_Cracking_the_Safe.cpp.obj
+.PHONY : DepthFirstSearch/Q753_Cracking_the_Safe.cpp.obj
+
+DepthFirstSearch/Q753_Cracking_the_Safe.i: DepthFirstSearch/Q753_Cracking_the_Safe.cpp.i
+
+.PHONY : DepthFirstSearch/Q753_Cracking_the_Safe.i
+
+# target to preprocess a source file
+DepthFirstSearch/Q753_Cracking_the_Safe.cpp.i:
+	$(MAKE) -f CMakeFiles\Q753.dir\build.make CMakeFiles/Q753.dir/DepthFirstSearch/Q753_Cracking_the_Safe.cpp.i
+.PHONY : DepthFirstSearch/Q753_Cracking_the_Safe.cpp.i
+
+DepthFirstSearch/Q753_Cracking_the_Safe.s: DepthFirstSearch/Q753_Cracking_the_Safe.cpp.s
+
+.PHONY : DepthFirstSearch/Q753_Cracking_the_Safe.s
+
+# target to generate assembly for a file
+DepthFirstSearch/Q753_Cracking_the_Safe.cpp.s:
+	$(MAKE) -f CMakeFiles\Q753.dir\build.make CMakeFiles/Q753.dir/DepthFirstSearch/Q753_Cracking_the_Safe.cpp.s
+.PHONY : DepthFirstSearch/Q753_Cracking_the_Safe.cpp.s
+
 String/Q1087_Brace_Expansion.obj: String/Q1087_Brace_Expansion.cpp.obj
 
 .PHONY : String/Q1087_Brace_Expansion.obj
@@ -284,6 +324,7 @@ help:
 	@echo ... Q35
 	@echo ... Q200
 	@echo ... rebuild_cache
+	@echo ... Q753
 	@echo ... Array/Q1_Two_Sum.obj
 	@echo ... Array/Q1_Two_Sum.i
 	@echo ... Array/Q1_Two_Sum.s
@@ -293,6 +334,9 @@ help:
 	@echo ... DepthFirstSearch/Q200_Number_of_Islands.obj
 	@echo ... DepthFirstSearch/Q200_Number_of_Islands.i
 	@echo ... DepthFirstSearch/Q200_Number_of_Islands.s
+	@echo ... DepthFirstSearch/Q753_Cracking_the_Safe.obj
+	@echo ... DepthFirstSearch/Q753_Cracking_the_Safe.i
+	@echo ... DepthFirstSearch/Q753_Cracking_the_Safe.s
 	@echo ... String/Q1087_Brace_Expansion.obj
 	@echo ... String/Q1087_Brace_Expansion.i
 	@echo ... String/Q1087_Brace_Expansion.s

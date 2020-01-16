@@ -1,5 +1,6 @@
 #include "iostream"
 #include "vector"
+#include "unordered_set"
 
 using namespace::std;
 
@@ -28,4 +29,7 @@ int numIslands(vector<vector<char>>& grid) {
 
 int main() {
     cout<<numIslands(*new vector<vector<char>>{{'1','1','0','0','0'},{'1','1','0','0','0'},{'0','0','1','0','0'},{'0','0','0','1','1'}})<<endl;
+    unordered_set<string> visited {"0"};
+    if (visited.find("0")!=visited.end())
+        cout<<'0'+1<<endl;
 }

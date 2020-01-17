@@ -162,6 +162,19 @@ Q200/fast:
 .PHONY : Q200/fast
 
 #=============================================================================
+# Target rules for targets named Q1145
+
+# Build rule for target.
+Q1145: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Q1145
+.PHONY : Q1145
+
+# fast build rule for target.
+Q1145/fast:
+	$(MAKE) -f CMakeFiles\Q1145.dir\build.make CMakeFiles/Q1145.dir/build
+.PHONY : Q1145/fast
+
+#=============================================================================
 # Target rules for targets named Q753
 
 # Build rule for target.
@@ -312,6 +325,33 @@ String/Q1087_Brace_Expansion.cpp.s:
 	$(MAKE) -f CMakeFiles\Q1087.dir\build.make CMakeFiles/Q1087.dir/String/Q1087_Brace_Expansion.cpp.s
 .PHONY : String/Q1087_Brace_Expansion.cpp.s
 
+Tree/Q1145_Binary_Tree_Coloring_Game.obj: Tree/Q1145_Binary_Tree_Coloring_Game.cpp.obj
+
+.PHONY : Tree/Q1145_Binary_Tree_Coloring_Game.obj
+
+# target to build an object file
+Tree/Q1145_Binary_Tree_Coloring_Game.cpp.obj:
+	$(MAKE) -f CMakeFiles\Q1145.dir\build.make CMakeFiles/Q1145.dir/Tree/Q1145_Binary_Tree_Coloring_Game.cpp.obj
+.PHONY : Tree/Q1145_Binary_Tree_Coloring_Game.cpp.obj
+
+Tree/Q1145_Binary_Tree_Coloring_Game.i: Tree/Q1145_Binary_Tree_Coloring_Game.cpp.i
+
+.PHONY : Tree/Q1145_Binary_Tree_Coloring_Game.i
+
+# target to preprocess a source file
+Tree/Q1145_Binary_Tree_Coloring_Game.cpp.i:
+	$(MAKE) -f CMakeFiles\Q1145.dir\build.make CMakeFiles/Q1145.dir/Tree/Q1145_Binary_Tree_Coloring_Game.cpp.i
+.PHONY : Tree/Q1145_Binary_Tree_Coloring_Game.cpp.i
+
+Tree/Q1145_Binary_Tree_Coloring_Game.s: Tree/Q1145_Binary_Tree_Coloring_Game.cpp.s
+
+.PHONY : Tree/Q1145_Binary_Tree_Coloring_Game.s
+
+# target to generate assembly for a file
+Tree/Q1145_Binary_Tree_Coloring_Game.cpp.s:
+	$(MAKE) -f CMakeFiles\Q1145.dir\build.make CMakeFiles/Q1145.dir/Tree/Q1145_Binary_Tree_Coloring_Game.cpp.s
+.PHONY : Tree/Q1145_Binary_Tree_Coloring_Game.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -324,6 +364,7 @@ help:
 	@echo ... Q35
 	@echo ... Q200
 	@echo ... rebuild_cache
+	@echo ... Q1145
 	@echo ... Q753
 	@echo ... Array/Q1_Two_Sum.obj
 	@echo ... Array/Q1_Two_Sum.i
@@ -340,6 +381,9 @@ help:
 	@echo ... String/Q1087_Brace_Expansion.obj
 	@echo ... String/Q1087_Brace_Expansion.i
 	@echo ... String/Q1087_Brace_Expansion.s
+	@echo ... Tree/Q1145_Binary_Tree_Coloring_Game.obj
+	@echo ... Tree/Q1145_Binary_Tree_Coloring_Game.i
+	@echo ... Tree/Q1145_Binary_Tree_Coloring_Game.s
 .PHONY : help
 
 

@@ -149,6 +149,19 @@ Q35/fast:
 .PHONY : Q35/fast
 
 #=============================================================================
+# Target rules for targets named Q1197
+
+# Build rule for target.
+Q1197: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Q1197
+.PHONY : Q1197
+
+# fast build rule for target.
+Q1197/fast:
+	$(MAKE) -f CMakeFiles\Q1197.dir\build.make CMakeFiles/Q1197.dir/build
+.PHONY : Q1197/fast
+
+#=============================================================================
 # Target rules for targets named Q200
 
 # Build rule for target.
@@ -240,6 +253,33 @@ BinarySearch/Q35_Search_Insert_Position.s: BinarySearch/Q35_Search_Insert_Positi
 BinarySearch/Q35_Search_Insert_Position.cpp.s:
 	$(MAKE) -f CMakeFiles\Q35.dir\build.make CMakeFiles/Q35.dir/BinarySearch/Q35_Search_Insert_Position.cpp.s
 .PHONY : BinarySearch/Q35_Search_Insert_Position.cpp.s
+
+BreadthFirstSearch/1197_Minimum_Knight_Moves.obj: BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.obj
+
+.PHONY : BreadthFirstSearch/1197_Minimum_Knight_Moves.obj
+
+# target to build an object file
+BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.obj:
+	$(MAKE) -f CMakeFiles\Q1197.dir\build.make CMakeFiles/Q1197.dir/BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.obj
+.PHONY : BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.obj
+
+BreadthFirstSearch/1197_Minimum_Knight_Moves.i: BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.i
+
+.PHONY : BreadthFirstSearch/1197_Minimum_Knight_Moves.i
+
+# target to preprocess a source file
+BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.i:
+	$(MAKE) -f CMakeFiles\Q1197.dir\build.make CMakeFiles/Q1197.dir/BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.i
+.PHONY : BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.i
+
+BreadthFirstSearch/1197_Minimum_Knight_Moves.s: BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.s
+
+.PHONY : BreadthFirstSearch/1197_Minimum_Knight_Moves.s
+
+# target to generate assembly for a file
+BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.s:
+	$(MAKE) -f CMakeFiles\Q1197.dir\build.make CMakeFiles/Q1197.dir/BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.s
+.PHONY : BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.s
 
 DepthFirstSearch/Q200_Number_of_Islands.obj: DepthFirstSearch/Q200_Number_of_Islands.cpp.obj
 
@@ -362,16 +402,20 @@ help:
 	@echo ... edit_cache
 	@echo ... Q1087
 	@echo ... Q35
+	@echo ... Q1197
 	@echo ... Q200
-	@echo ... rebuild_cache
 	@echo ... Q1145
 	@echo ... Q753
+	@echo ... rebuild_cache
 	@echo ... Array/Q1_Two_Sum.obj
 	@echo ... Array/Q1_Two_Sum.i
 	@echo ... Array/Q1_Two_Sum.s
 	@echo ... BinarySearch/Q35_Search_Insert_Position.obj
 	@echo ... BinarySearch/Q35_Search_Insert_Position.i
 	@echo ... BinarySearch/Q35_Search_Insert_Position.s
+	@echo ... BreadthFirstSearch/1197_Minimum_Knight_Moves.obj
+	@echo ... BreadthFirstSearch/1197_Minimum_Knight_Moves.i
+	@echo ... BreadthFirstSearch/1197_Minimum_Knight_Moves.s
 	@echo ... DepthFirstSearch/Q200_Number_of_Islands.obj
 	@echo ... DepthFirstSearch/Q200_Number_of_Islands.i
 	@echo ... DepthFirstSearch/Q200_Number_of_Islands.s

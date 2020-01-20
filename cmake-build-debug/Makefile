@@ -175,6 +175,19 @@ Q200/fast:
 .PHONY : Q200/fast
 
 #=============================================================================
+# Target rules for targets named Q1088
+
+# Build rule for target.
+Q1088: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Q1088
+.PHONY : Q1088
+
+# fast build rule for target.
+Q1088/fast:
+	$(MAKE) -f CMakeFiles\Q1088.dir\build.make CMakeFiles/Q1088.dir/build
+.PHONY : Q1088/fast
+
+#=============================================================================
 # Target rules for targets named Q1145
 
 # Build rule for target.
@@ -280,6 +293,33 @@ BreadthFirstSearch/1197_Minimum_Knight_Moves.s: BreadthFirstSearch/1197_Minimum_
 BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.s:
 	$(MAKE) -f CMakeFiles\Q1197.dir\build.make CMakeFiles/Q1197.dir/BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.s
 .PHONY : BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.s
+
+DepthFirstSearch/Q1088_Confusing_Number_II.obj: DepthFirstSearch/Q1088_Confusing_Number_II.cpp.obj
+
+.PHONY : DepthFirstSearch/Q1088_Confusing_Number_II.obj
+
+# target to build an object file
+DepthFirstSearch/Q1088_Confusing_Number_II.cpp.obj:
+	$(MAKE) -f CMakeFiles\Q1088.dir\build.make CMakeFiles/Q1088.dir/DepthFirstSearch/Q1088_Confusing_Number_II.cpp.obj
+.PHONY : DepthFirstSearch/Q1088_Confusing_Number_II.cpp.obj
+
+DepthFirstSearch/Q1088_Confusing_Number_II.i: DepthFirstSearch/Q1088_Confusing_Number_II.cpp.i
+
+.PHONY : DepthFirstSearch/Q1088_Confusing_Number_II.i
+
+# target to preprocess a source file
+DepthFirstSearch/Q1088_Confusing_Number_II.cpp.i:
+	$(MAKE) -f CMakeFiles\Q1088.dir\build.make CMakeFiles/Q1088.dir/DepthFirstSearch/Q1088_Confusing_Number_II.cpp.i
+.PHONY : DepthFirstSearch/Q1088_Confusing_Number_II.cpp.i
+
+DepthFirstSearch/Q1088_Confusing_Number_II.s: DepthFirstSearch/Q1088_Confusing_Number_II.cpp.s
+
+.PHONY : DepthFirstSearch/Q1088_Confusing_Number_II.s
+
+# target to generate assembly for a file
+DepthFirstSearch/Q1088_Confusing_Number_II.cpp.s:
+	$(MAKE) -f CMakeFiles\Q1088.dir\build.make CMakeFiles/Q1088.dir/DepthFirstSearch/Q1088_Confusing_Number_II.cpp.s
+.PHONY : DepthFirstSearch/Q1088_Confusing_Number_II.cpp.s
 
 DepthFirstSearch/Q200_Number_of_Islands.obj: DepthFirstSearch/Q200_Number_of_Islands.cpp.obj
 
@@ -399,13 +439,14 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... Q1
-	@echo ... edit_cache
 	@echo ... Q1087
 	@echo ... Q35
 	@echo ... Q1197
 	@echo ... Q200
+	@echo ... Q1088
 	@echo ... Q1145
 	@echo ... Q753
+	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Array/Q1_Two_Sum.obj
 	@echo ... Array/Q1_Two_Sum.i
@@ -416,6 +457,9 @@ help:
 	@echo ... BreadthFirstSearch/1197_Minimum_Knight_Moves.obj
 	@echo ... BreadthFirstSearch/1197_Minimum_Knight_Moves.i
 	@echo ... BreadthFirstSearch/1197_Minimum_Knight_Moves.s
+	@echo ... DepthFirstSearch/Q1088_Confusing_Number_II.obj
+	@echo ... DepthFirstSearch/Q1088_Confusing_Number_II.i
+	@echo ... DepthFirstSearch/Q1088_Confusing_Number_II.s
 	@echo ... DepthFirstSearch/Q200_Number_of_Islands.obj
 	@echo ... DepthFirstSearch/Q200_Number_of_Islands.i
 	@echo ... DepthFirstSearch/Q200_Number_of_Islands.s

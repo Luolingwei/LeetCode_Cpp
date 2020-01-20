@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Program/LeetCode_Cpp/DepthFirstSearch/Q1088_Confusing Number II.cpp
+iostream
+D:/Program/LeetCode_Cpp/DepthFirstSearch/iostream
+vector
+D:/Program/LeetCode_Cpp/DepthFirstSearch/vector
+unordered_map
+-
+

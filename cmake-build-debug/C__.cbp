@@ -369,6 +369,50 @@
 					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Q489">
+				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q489.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q489"/>
+					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Q489/fast">
+				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q489.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q489/fast"/>
+					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
 				<Option type="4"/>
@@ -404,6 +448,9 @@
 		</Unit>
 		<Unit filename="D:/Program/LeetCode_Cpp/DepthFirstSearch/Q200_Number of Islands.cpp">
 			<Option target="Q200"/>
+		</Unit>
+		<Unit filename="D:/Program/LeetCode_Cpp/DepthFirstSearch/Q489_Robot Room Cleaner.cpp">
+			<Option target="Q489"/>
 		</Unit>
 		<Unit filename="D:/Program/LeetCode_Cpp/DepthFirstSearch/Q753_Cracking the Safe.cpp">
 			<Option target="Q753"/>

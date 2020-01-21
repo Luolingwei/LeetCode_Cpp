@@ -213,6 +213,19 @@ Q753/fast:
 	$(MAKE) -f CMakeFiles\Q753.dir\build.make CMakeFiles/Q753.dir/build
 .PHONY : Q753/fast
 
+#=============================================================================
+# Target rules for targets named Q489
+
+# Build rule for target.
+Q489: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Q489
+.PHONY : Q489
+
+# fast build rule for target.
+Q489/fast:
+	$(MAKE) -f CMakeFiles\Q489.dir\build.make CMakeFiles/Q489.dir/build
+.PHONY : Q489/fast
+
 Array/Q1_Two_Sum.obj: Array/Q1_Two_Sum.cpp.obj
 
 .PHONY : Array/Q1_Two_Sum.obj
@@ -348,6 +361,33 @@ DepthFirstSearch/Q200_Number_of_Islands.cpp.s:
 	$(MAKE) -f CMakeFiles\Q200.dir\build.make CMakeFiles/Q200.dir/DepthFirstSearch/Q200_Number_of_Islands.cpp.s
 .PHONY : DepthFirstSearch/Q200_Number_of_Islands.cpp.s
 
+DepthFirstSearch/Q489_Robot_Room_Cleaner.obj: DepthFirstSearch/Q489_Robot_Room_Cleaner.cpp.obj
+
+.PHONY : DepthFirstSearch/Q489_Robot_Room_Cleaner.obj
+
+# target to build an object file
+DepthFirstSearch/Q489_Robot_Room_Cleaner.cpp.obj:
+	$(MAKE) -f CMakeFiles\Q489.dir\build.make CMakeFiles/Q489.dir/DepthFirstSearch/Q489_Robot_Room_Cleaner.cpp.obj
+.PHONY : DepthFirstSearch/Q489_Robot_Room_Cleaner.cpp.obj
+
+DepthFirstSearch/Q489_Robot_Room_Cleaner.i: DepthFirstSearch/Q489_Robot_Room_Cleaner.cpp.i
+
+.PHONY : DepthFirstSearch/Q489_Robot_Room_Cleaner.i
+
+# target to preprocess a source file
+DepthFirstSearch/Q489_Robot_Room_Cleaner.cpp.i:
+	$(MAKE) -f CMakeFiles\Q489.dir\build.make CMakeFiles/Q489.dir/DepthFirstSearch/Q489_Robot_Room_Cleaner.cpp.i
+.PHONY : DepthFirstSearch/Q489_Robot_Room_Cleaner.cpp.i
+
+DepthFirstSearch/Q489_Robot_Room_Cleaner.s: DepthFirstSearch/Q489_Robot_Room_Cleaner.cpp.s
+
+.PHONY : DepthFirstSearch/Q489_Robot_Room_Cleaner.s
+
+# target to generate assembly for a file
+DepthFirstSearch/Q489_Robot_Room_Cleaner.cpp.s:
+	$(MAKE) -f CMakeFiles\Q489.dir\build.make CMakeFiles/Q489.dir/DepthFirstSearch/Q489_Robot_Room_Cleaner.cpp.s
+.PHONY : DepthFirstSearch/Q489_Robot_Room_Cleaner.cpp.s
+
 DepthFirstSearch/Q753_Cracking_the_Safe.obj: DepthFirstSearch/Q753_Cracking_the_Safe.cpp.obj
 
 .PHONY : DepthFirstSearch/Q753_Cracking_the_Safe.obj
@@ -446,6 +486,7 @@ help:
 	@echo ... Q1088
 	@echo ... Q1145
 	@echo ... Q753
+	@echo ... Q489
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Array/Q1_Two_Sum.obj
@@ -463,6 +504,9 @@ help:
 	@echo ... DepthFirstSearch/Q200_Number_of_Islands.obj
 	@echo ... DepthFirstSearch/Q200_Number_of_Islands.i
 	@echo ... DepthFirstSearch/Q200_Number_of_Islands.s
+	@echo ... DepthFirstSearch/Q489_Robot_Room_Cleaner.obj
+	@echo ... DepthFirstSearch/Q489_Robot_Room_Cleaner.i
+	@echo ... DepthFirstSearch/Q489_Robot_Room_Cleaner.s
 	@echo ... DepthFirstSearch/Q753_Cracking_the_Safe.obj
 	@echo ... DepthFirstSearch/Q753_Cracking_the_Safe.i
 	@echo ... DepthFirstSearch/Q753_Cracking_the_Safe.s

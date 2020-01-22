@@ -226,6 +226,19 @@ Q489/fast:
 	$(MAKE) -f CMakeFiles\Q489.dir\build.make CMakeFiles/Q489.dir/build
 .PHONY : Q489/fast
 
+#=============================================================================
+# Target rules for targets named Q317
+
+# Build rule for target.
+Q317: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Q317
+.PHONY : Q317
+
+# fast build rule for target.
+Q317/fast:
+	$(MAKE) -f CMakeFiles\Q317.dir\build.make CMakeFiles/Q317.dir/build
+.PHONY : Q317/fast
+
 Array/Q1_Two_Sum.obj: Array/Q1_Two_Sum.cpp.obj
 
 .PHONY : Array/Q1_Two_Sum.obj
@@ -306,6 +319,33 @@ BreadthFirstSearch/1197_Minimum_Knight_Moves.s: BreadthFirstSearch/1197_Minimum_
 BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.s:
 	$(MAKE) -f CMakeFiles\Q1197.dir\build.make CMakeFiles/Q1197.dir/BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.s
 .PHONY : BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.s
+
+BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.obj: BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.cpp.obj
+
+.PHONY : BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.obj
+
+# target to build an object file
+BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.cpp.obj:
+	$(MAKE) -f CMakeFiles\Q317.dir\build.make CMakeFiles/Q317.dir/BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.cpp.obj
+.PHONY : BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.cpp.obj
+
+BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.i: BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.cpp.i
+
+.PHONY : BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.i
+
+# target to preprocess a source file
+BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.cpp.i:
+	$(MAKE) -f CMakeFiles\Q317.dir\build.make CMakeFiles/Q317.dir/BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.cpp.i
+.PHONY : BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.cpp.i
+
+BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.s: BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.cpp.s
+
+.PHONY : BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.s
+
+# target to generate assembly for a file
+BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.cpp.s:
+	$(MAKE) -f CMakeFiles\Q317.dir\build.make CMakeFiles/Q317.dir/BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.cpp.s
+.PHONY : BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.cpp.s
 
 DepthFirstSearch/Q1088_Confusing_Number_II.obj: DepthFirstSearch/Q1088_Confusing_Number_II.cpp.obj
 
@@ -487,6 +527,7 @@ help:
 	@echo ... Q1145
 	@echo ... Q753
 	@echo ... Q489
+	@echo ... Q317
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Array/Q1_Two_Sum.obj
@@ -498,6 +539,9 @@ help:
 	@echo ... BreadthFirstSearch/1197_Minimum_Knight_Moves.obj
 	@echo ... BreadthFirstSearch/1197_Minimum_Knight_Moves.i
 	@echo ... BreadthFirstSearch/1197_Minimum_Knight_Moves.s
+	@echo ... BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.obj
+	@echo ... BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.i
+	@echo ... BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.s
 	@echo ... DepthFirstSearch/Q1088_Confusing_Number_II.obj
 	@echo ... DepthFirstSearch/Q1088_Confusing_Number_II.i
 	@echo ... DepthFirstSearch/Q1088_Confusing_Number_II.s

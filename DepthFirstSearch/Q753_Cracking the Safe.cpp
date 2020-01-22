@@ -7,7 +7,8 @@
 using namespace::std;
 
 string res;
-int target,n,k;
+int target,k;
+vector<vector<pair<int, int>>> n;
 
 bool dfs(string s, unordered_set<string> visited){
     if (visited.size()==target){

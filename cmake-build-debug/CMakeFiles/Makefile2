@@ -61,6 +61,7 @@ all: CMakeFiles/Q1088.dir/all
 all: CMakeFiles/Q1145.dir/all
 all: CMakeFiles/Q753.dir/all
 all: CMakeFiles/Q489.dir/all
+all: CMakeFiles/Q317.dir/all
 
 .PHONY : all
 
@@ -74,6 +75,7 @@ clean: CMakeFiles/Q1088.dir/clean
 clean: CMakeFiles/Q1145.dir/clean
 clean: CMakeFiles/Q753.dir/clean
 clean: CMakeFiles/Q489.dir/clean
+clean: CMakeFiles/Q317.dir/clean
 
 .PHONY : clean
 
@@ -143,7 +145,7 @@ CMakeFiles/Q1087.dir/clean:
 CMakeFiles/Q35.dir/all:
 	$(MAKE) -f CMakeFiles\Q35.dir\build.make CMakeFiles/Q35.dir/depend
 	$(MAKE) -f CMakeFiles\Q35.dir\build.make CMakeFiles/Q35.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\LeetCode_Cpp\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target Q35"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\LeetCode_Cpp\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target Q35"
 .PHONY : CMakeFiles/Q35.dir/all
 
 # Build rule for subdir invocation for target.
@@ -278,7 +280,7 @@ CMakeFiles/Q1145.dir/clean:
 CMakeFiles/Q753.dir/all:
 	$(MAKE) -f CMakeFiles\Q753.dir\build.make CMakeFiles/Q753.dir/depend
 	$(MAKE) -f CMakeFiles\Q753.dir\build.make CMakeFiles/Q753.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\LeetCode_Cpp\cmake-build-debug\CMakeFiles --progress-num=18,19 "Built target Q753"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\LeetCode_Cpp\cmake-build-debug\CMakeFiles --progress-num=20,21 "Built target Q753"
 .PHONY : CMakeFiles/Q753.dir/all
 
 # Build rule for subdir invocation for target.
@@ -305,7 +307,7 @@ CMakeFiles/Q753.dir/clean:
 CMakeFiles/Q489.dir/all:
 	$(MAKE) -f CMakeFiles\Q489.dir\build.make CMakeFiles/Q489.dir/depend
 	$(MAKE) -f CMakeFiles\Q489.dir\build.make CMakeFiles/Q489.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\LeetCode_Cpp\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target Q489"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\LeetCode_Cpp\cmake-build-debug\CMakeFiles --progress-num=18,19 "Built target Q489"
 .PHONY : CMakeFiles/Q489.dir/all
 
 # Build rule for subdir invocation for target.
@@ -324,6 +326,33 @@ Q489: CMakeFiles/Q489.dir/rule
 CMakeFiles/Q489.dir/clean:
 	$(MAKE) -f CMakeFiles\Q489.dir\build.make CMakeFiles/Q489.dir/clean
 .PHONY : CMakeFiles/Q489.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Q317.dir
+
+# All Build rule for target.
+CMakeFiles/Q317.dir/all:
+	$(MAKE) -f CMakeFiles\Q317.dir\build.make CMakeFiles/Q317.dir/depend
+	$(MAKE) -f CMakeFiles\Q317.dir\build.make CMakeFiles/Q317.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\LeetCode_Cpp\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target Q317"
+.PHONY : CMakeFiles/Q317.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Q317.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\LeetCode_Cpp\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Q317.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\LeetCode_Cpp\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Q317.dir/rule
+
+# Convenience name for target.
+Q317: CMakeFiles/Q317.dir/rule
+
+.PHONY : Q317
+
+# clean rule for target.
+CMakeFiles/Q317.dir/clean:
+	$(MAKE) -f CMakeFiles\Q317.dir\build.make CMakeFiles/Q317.dir/clean
+.PHONY : CMakeFiles/Q317.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

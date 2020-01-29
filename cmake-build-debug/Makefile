@@ -239,6 +239,19 @@ Q317/fast:
 	$(MAKE) -f CMakeFiles\Q317.dir\build.make CMakeFiles/Q317.dir/build
 .PHONY : Q317/fast
 
+#=============================================================================
+# Target rules for targets named Q410
+
+# Build rule for target.
+Q410: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Q410
+.PHONY : Q410
+
+# fast build rule for target.
+Q410/fast:
+	$(MAKE) -f CMakeFiles\Q410.dir\build.make CMakeFiles/Q410.dir/build
+.PHONY : Q410/fast
+
 Array/Q1_Two_Sum.obj: Array/Q1_Two_Sum.cpp.obj
 
 .PHONY : Array/Q1_Two_Sum.obj
@@ -292,6 +305,33 @@ BinarySearch/Q35_Search_Insert_Position.s: BinarySearch/Q35_Search_Insert_Positi
 BinarySearch/Q35_Search_Insert_Position.cpp.s:
 	$(MAKE) -f CMakeFiles\Q35.dir\build.make CMakeFiles/Q35.dir/BinarySearch/Q35_Search_Insert_Position.cpp.s
 .PHONY : BinarySearch/Q35_Search_Insert_Position.cpp.s
+
+BinarySearch/Q410_Split_Array_Largest_Sum.obj: BinarySearch/Q410_Split_Array_Largest_Sum.cpp.obj
+
+.PHONY : BinarySearch/Q410_Split_Array_Largest_Sum.obj
+
+# target to build an object file
+BinarySearch/Q410_Split_Array_Largest_Sum.cpp.obj:
+	$(MAKE) -f CMakeFiles\Q410.dir\build.make CMakeFiles/Q410.dir/BinarySearch/Q410_Split_Array_Largest_Sum.cpp.obj
+.PHONY : BinarySearch/Q410_Split_Array_Largest_Sum.cpp.obj
+
+BinarySearch/Q410_Split_Array_Largest_Sum.i: BinarySearch/Q410_Split_Array_Largest_Sum.cpp.i
+
+.PHONY : BinarySearch/Q410_Split_Array_Largest_Sum.i
+
+# target to preprocess a source file
+BinarySearch/Q410_Split_Array_Largest_Sum.cpp.i:
+	$(MAKE) -f CMakeFiles\Q410.dir\build.make CMakeFiles/Q410.dir/BinarySearch/Q410_Split_Array_Largest_Sum.cpp.i
+.PHONY : BinarySearch/Q410_Split_Array_Largest_Sum.cpp.i
+
+BinarySearch/Q410_Split_Array_Largest_Sum.s: BinarySearch/Q410_Split_Array_Largest_Sum.cpp.s
+
+.PHONY : BinarySearch/Q410_Split_Array_Largest_Sum.s
+
+# target to generate assembly for a file
+BinarySearch/Q410_Split_Array_Largest_Sum.cpp.s:
+	$(MAKE) -f CMakeFiles\Q410.dir\build.make CMakeFiles/Q410.dir/BinarySearch/Q410_Split_Array_Largest_Sum.cpp.s
+.PHONY : BinarySearch/Q410_Split_Array_Largest_Sum.cpp.s
 
 BreadthFirstSearch/1197_Minimum_Knight_Moves.obj: BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.obj
 
@@ -528,6 +568,7 @@ help:
 	@echo ... Q753
 	@echo ... Q489
 	@echo ... Q317
+	@echo ... Q410
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Array/Q1_Two_Sum.obj
@@ -536,6 +577,9 @@ help:
 	@echo ... BinarySearch/Q35_Search_Insert_Position.obj
 	@echo ... BinarySearch/Q35_Search_Insert_Position.i
 	@echo ... BinarySearch/Q35_Search_Insert_Position.s
+	@echo ... BinarySearch/Q410_Split_Array_Largest_Sum.obj
+	@echo ... BinarySearch/Q410_Split_Array_Largest_Sum.i
+	@echo ... BinarySearch/Q410_Split_Array_Largest_Sum.s
 	@echo ... BreadthFirstSearch/1197_Minimum_Knight_Moves.obj
 	@echo ... BreadthFirstSearch/1197_Minimum_Knight_Moves.i
 	@echo ... BreadthFirstSearch/1197_Minimum_Knight_Moves.s

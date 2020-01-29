@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Program/LeetCode_Cpp/BinarySearch/Q410_Split Array Largest Sum.cpp
+iostream
+-
+vector
+-
+algorithm
+D:/Program/LeetCode_Cpp/BinarySearch/algorithm
+

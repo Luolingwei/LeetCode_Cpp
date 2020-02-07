@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Q1087.dir/String/Q1087_Brace_Expansion.cpp.obj"
-  "Q1087.exe"
-  "Q1087.exe.manifest"
+  "CMakeFiles/Q1087.dir/String/Q1087_Brace_Expansion.cpp.o"
+  "Q1087"
   "Q1087.pdb"
-  "libQ1087.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Program/LeetCode_Cpp/BreadthFirstSearch/1197_Minimum Knight Moves.cpp" "D:/Program/LeetCode_Cpp/cmake-build-debug/CMakeFiles/Q1197.dir/BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.obj"
+  "/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/BreadthFirstSearch/1197_Minimum Knight Moves.cpp" "/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/CMakeFiles/Q1197.dir/BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

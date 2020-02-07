@@ -1,3 +1,1 @@
-"E:\CLion\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Q317.dir/objects.a
-E:\DevCPP\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\Q317.dir/objects.a @CMakeFiles\Q317.dir\objects1.rsp
-E:\DevCPP\Dev-Cpp\MinGW64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Q317.dir/objects.a -Wl,--no-whole-archive  -o Q317.exe -Wl,--out-implib,libQ317.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Q317.dir\linklibs.rsp
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Q317.dir/BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.cpp.o  -o Q317 

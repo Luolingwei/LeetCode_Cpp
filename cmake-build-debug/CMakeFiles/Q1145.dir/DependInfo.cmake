@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Program/LeetCode_Cpp/Tree/Q1145_Binary Tree Coloring Game.cpp" "D:/Program/LeetCode_Cpp/cmake-build-debug/CMakeFiles/Q1145.dir/Tree/Q1145_Binary_Tree_Coloring_Game.cpp.obj"
+  "/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/Tree/Q1145_Binary Tree Coloring Game.cpp" "/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/CMakeFiles/Q1145.dir/Tree/Q1145_Binary_Tree_Coloring_Game.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

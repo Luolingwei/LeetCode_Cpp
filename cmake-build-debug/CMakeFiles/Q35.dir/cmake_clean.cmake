@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Q35.dir/BinarySearch/Q35_Search_Insert_Position.cpp.obj"
-  "Q35.exe"
-  "Q35.exe.manifest"
+  "CMakeFiles/Q35.dir/BinarySearch/Q35_Search_Insert_Position.cpp.o"
+  "Q35"
   "Q35.pdb"
-  "libQ35.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

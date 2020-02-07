@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Q1197.dir/BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.obj"
-  "Q1197.exe"
-  "Q1197.exe.manifest"
+  "CMakeFiles/Q1197.dir/BreadthFirstSearch/1197_Minimum_Knight_Moves.cpp.o"
+  "Q1197"
   "Q1197.pdb"
-  "libQ1197.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

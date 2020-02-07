@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Program/LeetCode_Cpp/BreadthFirstSearch/Q317_Shortest Distance from All Buildings.cpp" "D:/Program/LeetCode_Cpp/cmake-build-debug/CMakeFiles/Q317.dir/BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.cpp.obj"
+  "/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/BreadthFirstSearch/Q317_Shortest Distance from All Buildings.cpp" "/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/CMakeFiles/Q317.dir/BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

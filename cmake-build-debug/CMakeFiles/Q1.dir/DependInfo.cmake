@@ -4,10 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Program/LeetCode_Cpp/Array/Q1_Two Sum.cpp" "D:/Program/LeetCode_Cpp/cmake-build-debug/CMakeFiles/Q1.dir/Array/Q1_Two_Sum.cpp.obj"
-  "D:/Program/LeetCode_Cpp/String/Q1087_Brace Expansion.cpp" "D:/Program/LeetCode_Cpp/cmake-build-debug/CMakeFiles/Q1.dir/String/Q1087_Brace_Expansion.cpp.obj"
+  "/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/Array/Q1_Two Sum.cpp" "/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/CMakeFiles/Q1.dir/Array/Q1_Two_Sum.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

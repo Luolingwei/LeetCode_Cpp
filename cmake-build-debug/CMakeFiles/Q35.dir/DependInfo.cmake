@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Program/LeetCode_Cpp/BinarySearch/Q35_Search Insert Position.cpp" "D:/Program/LeetCode_Cpp/cmake-build-debug/CMakeFiles/Q35.dir/BinarySearch/Q35_Search_Insert_Position.cpp.obj"
+  "/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/BinarySearch/Q35_Search Insert Position.cpp" "/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/CMakeFiles/Q35.dir/BinarySearch/Q35_Search_Insert_Position.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

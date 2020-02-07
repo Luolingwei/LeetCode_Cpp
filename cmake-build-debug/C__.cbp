@@ -8,555 +8,510 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Q1">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Q1/fast">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1/fast"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Q1087">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q1087.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1087"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Q1087/fast">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q1087.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1087/fast"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Q35">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q35.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q35"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Q35/fast">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q35.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q35/fast"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Q1197">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q1197.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q1197" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1197"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1197"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Q1197/fast">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q1197.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q1197" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1197/fast"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Q200">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q200.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q200"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Q200/fast">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q200.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q200/fast"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1197/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Q1088">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q1088.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q1088" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1088"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1088"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Q1088/fast">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q1088.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q1088" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1088/fast"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Q1145">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q1145.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1145"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Q1145/fast">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q1145.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1145/fast"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Q753">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q753.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q753"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Q753/fast">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q753.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q753/fast"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1088/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Q489">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q489.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q489" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q489"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q489"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Q489/fast">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q489.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q489" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q489/fast"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q489/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Q317">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q317.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
+			<Target title="Q1087">
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q1087" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q317"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1087"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Q317/fast">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q317.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
+			<Target title="Q1087/fast">
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q1087" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q317/fast"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1087/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Q1145">
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q1145" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1145"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Q1145/fast">
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q1145" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1145/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Q35">
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q35" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q35"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Q35/fast">
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q35" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q35/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Q200">
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q200" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q200"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Q200/fast">
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q200" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q200/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Q410">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q410.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q410" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q410"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q410"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Q410/fast">
-				<Option output="D:/Program/LeetCode_Cpp/cmake-build-debug/Q410.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q410" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/DevCPP/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q410/fast"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q410/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
-				<Option type="4"/>
+			<Target title="Q753">
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q753" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q753"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Q753/fast">
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q753" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q753/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Program/LeetCode_Cpp/cmake-build-debug"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevCPP/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Program/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Q317">
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q317" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q317"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Q317/fast">
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q317" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q317/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Q1">
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Q1/fast">
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Program/LeetCode_Cpp/Array/Q1_Two Sum.cpp">
+		<Unit filename="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/Array/Q1_Two Sum.cpp">
 			<Option target="Q1"/>
 		</Unit>
-		<Unit filename="D:/Program/LeetCode_Cpp/BinarySearch/Q35_Search Insert Position.cpp">
+		<Unit filename="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/BinarySearch/Q35_Search Insert Position.cpp">
 			<Option target="Q35"/>
 		</Unit>
-		<Unit filename="D:/Program/LeetCode_Cpp/BinarySearch/Q410_Split Array Largest Sum.cpp">
+		<Unit filename="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/BinarySearch/Q410_Split Array Largest Sum.cpp">
 			<Option target="Q410"/>
 		</Unit>
-		<Unit filename="D:/Program/LeetCode_Cpp/BreadthFirstSearch/1197_Minimum Knight Moves.cpp">
+		<Unit filename="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/BreadthFirstSearch/1197_Minimum Knight Moves.cpp">
 			<Option target="Q1197"/>
 		</Unit>
-		<Unit filename="D:/Program/LeetCode_Cpp/BreadthFirstSearch/Q317_Shortest Distance from All Buildings.cpp">
+		<Unit filename="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/BreadthFirstSearch/Q317_Shortest Distance from All Buildings.cpp">
 			<Option target="Q317"/>
 		</Unit>
-		<Unit filename="D:/Program/LeetCode_Cpp/DepthFirstSearch/Q1088_Confusing Number II.cpp">
+		<Unit filename="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/DepthFirstSearch/Q1088_Confusing Number II.cpp">
 			<Option target="Q1088"/>
 		</Unit>
-		<Unit filename="D:/Program/LeetCode_Cpp/DepthFirstSearch/Q200_Number of Islands.cpp">
+		<Unit filename="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/DepthFirstSearch/Q200_Number of Islands.cpp">
 			<Option target="Q200"/>
 		</Unit>
-		<Unit filename="D:/Program/LeetCode_Cpp/DepthFirstSearch/Q489_Robot Room Cleaner.cpp">
+		<Unit filename="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/DepthFirstSearch/Q489_Robot Room Cleaner.cpp">
 			<Option target="Q489"/>
 		</Unit>
-		<Unit filename="D:/Program/LeetCode_Cpp/DepthFirstSearch/Q753_Cracking the Safe.cpp">
+		<Unit filename="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/DepthFirstSearch/Q753_Cracking the Safe.cpp">
 			<Option target="Q753"/>
 		</Unit>
-		<Unit filename="D:/Program/LeetCode_Cpp/String/Q1087_Brace Expansion.cpp">
-			<Option target="Q1"/>
+		<Unit filename="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/String/Q1087_Brace Expansion.cpp">
 			<Option target="Q1087"/>
 		</Unit>
-		<Unit filename="D:/Program/LeetCode_Cpp/Tree/Q1145_Binary Tree Coloring Game.cpp">
+		<Unit filename="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/Tree/Q1145_Binary Tree Coloring Game.cpp">
 			<Option target="Q1145"/>
 		</Unit>
-		<Unit filename="D:/Program/LeetCode_Cpp/CMakeLists.txt">
+		<Unit filename="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

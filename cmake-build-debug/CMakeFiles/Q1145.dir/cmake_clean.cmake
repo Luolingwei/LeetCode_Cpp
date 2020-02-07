@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Q1145.dir/Tree/Q1145_Binary_Tree_Coloring_Game.cpp.obj"
-  "Q1145.exe"
-  "Q1145.exe.manifest"
+  "CMakeFiles/Q1145.dir/Tree/Q1145_Binary_Tree_Coloring_Game.cpp.o"
+  "Q1145"
   "Q1145.pdb"
-  "libQ1145.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

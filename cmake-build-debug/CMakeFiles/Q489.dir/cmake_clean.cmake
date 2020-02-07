@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Q489.dir/DepthFirstSearch/Q489_Robot_Room_Cleaner.cpp.obj"
-  "Q489.exe"
-  "Q489.exe.manifest"
+  "CMakeFiles/Q489.dir/DepthFirstSearch/Q489_Robot_Room_Cleaner.cpp.o"
+  "Q489"
   "Q489.pdb"
-  "libQ489.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

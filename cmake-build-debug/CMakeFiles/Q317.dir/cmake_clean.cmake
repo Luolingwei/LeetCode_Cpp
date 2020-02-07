@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Q317.dir/BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.cpp.obj"
-  "Q317.exe"
-  "Q317.exe.manifest"
+  "CMakeFiles/Q317.dir/BreadthFirstSearch/Q317_Shortest_Distance_from_All_Buildings.cpp.o"
+  "Q317"
   "Q317.pdb"
-  "libQ317.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

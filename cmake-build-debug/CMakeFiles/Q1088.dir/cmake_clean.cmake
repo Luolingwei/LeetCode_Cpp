@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Q1088.dir/DepthFirstSearch/Q1088_Confusing_Number_II.cpp.obj"
-  "Q1088.exe"
-  "Q1088.exe.manifest"
+  "CMakeFiles/Q1088.dir/DepthFirstSearch/Q1088_Confusing_Number_II.cpp.o"
+  "Q1088"
   "Q1088.pdb"
-  "libQ1088.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

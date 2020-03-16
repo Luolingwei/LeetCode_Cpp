@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/Heap/Q1383_Maximum Performance of a Team.cpp
+iostream
+-
+vector
+-
+queue
+-
+

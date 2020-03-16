@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Q1383
+
+# Build rule for target.
+Q1383: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Q1383
+.PHONY : Q1383
+
+# fast build rule for target.
+Q1383/fast:
+	$(MAKE) -f CMakeFiles/Q1383.dir/build.make CMakeFiles/Q1383.dir/build
+.PHONY : Q1383/fast
+
+#=============================================================================
 # Target rules for targets named Q1197
 
 # Build rule for target.
@@ -496,6 +509,33 @@ DepthFirstSearch/Q753_Cracking_the_Safe.cpp.s:
 	$(MAKE) -f CMakeFiles/Q753.dir/build.make CMakeFiles/Q753.dir/DepthFirstSearch/Q753_Cracking_the_Safe.cpp.s
 .PHONY : DepthFirstSearch/Q753_Cracking_the_Safe.cpp.s
 
+Heap/Q1383_Maximum_Performance_of_a_Team.o: Heap/Q1383_Maximum_Performance_of_a_Team.cpp.o
+
+.PHONY : Heap/Q1383_Maximum_Performance_of_a_Team.o
+
+# target to build an object file
+Heap/Q1383_Maximum_Performance_of_a_Team.cpp.o:
+	$(MAKE) -f CMakeFiles/Q1383.dir/build.make CMakeFiles/Q1383.dir/Heap/Q1383_Maximum_Performance_of_a_Team.cpp.o
+.PHONY : Heap/Q1383_Maximum_Performance_of_a_Team.cpp.o
+
+Heap/Q1383_Maximum_Performance_of_a_Team.i: Heap/Q1383_Maximum_Performance_of_a_Team.cpp.i
+
+.PHONY : Heap/Q1383_Maximum_Performance_of_a_Team.i
+
+# target to preprocess a source file
+Heap/Q1383_Maximum_Performance_of_a_Team.cpp.i:
+	$(MAKE) -f CMakeFiles/Q1383.dir/build.make CMakeFiles/Q1383.dir/Heap/Q1383_Maximum_Performance_of_a_Team.cpp.i
+.PHONY : Heap/Q1383_Maximum_Performance_of_a_Team.cpp.i
+
+Heap/Q1383_Maximum_Performance_of_a_Team.s: Heap/Q1383_Maximum_Performance_of_a_Team.cpp.s
+
+.PHONY : Heap/Q1383_Maximum_Performance_of_a_Team.s
+
+# target to generate assembly for a file
+Heap/Q1383_Maximum_Performance_of_a_Team.cpp.s:
+	$(MAKE) -f CMakeFiles/Q1383.dir/build.make CMakeFiles/Q1383.dir/Heap/Q1383_Maximum_Performance_of_a_Team.cpp.s
+.PHONY : Heap/Q1383_Maximum_Performance_of_a_Team.cpp.s
+
 String/Q1087_Brace_Expansion.o: String/Q1087_Brace_Expansion.cpp.o
 
 .PHONY : String/Q1087_Brace_Expansion.o
@@ -556,6 +596,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... Q1383"
 	@echo "... Q1197"
 	@echo "... Q1088"
 	@echo "... Q489"
@@ -596,6 +637,9 @@ help:
 	@echo "... DepthFirstSearch/Q753_Cracking_the_Safe.o"
 	@echo "... DepthFirstSearch/Q753_Cracking_the_Safe.i"
 	@echo "... DepthFirstSearch/Q753_Cracking_the_Safe.s"
+	@echo "... Heap/Q1383_Maximum_Performance_of_a_Team.o"
+	@echo "... Heap/Q1383_Maximum_Performance_of_a_Team.i"
+	@echo "... Heap/Q1383_Maximum_Performance_of_a_Team.s"
 	@echo "... String/Q1087_Brace_Expansion.o"
 	@echo "... String/Q1087_Brace_Expansion.i"
 	@echo "... String/Q1087_Brace_Expansion.s"

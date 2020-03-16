@@ -17,6 +17,46 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Q1383">
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q1383" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1383"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Q1383/fast">
+				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q1383" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q1383/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Q1197">
 				<Option output="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug/Q1197" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/cmake-build-debug"/>
@@ -504,6 +544,9 @@
 		</Unit>
 		<Unit filename="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/DepthFirstSearch/Q753_Cracking the Safe.cpp">
 			<Option target="Q753"/>
+		</Unit>
+		<Unit filename="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/Heap/Q1383_Maximum Performance of a Team.cpp">
+			<Option target="Q1383"/>
 		</Unit>
 		<Unit filename="/Users/luolingwei/Desktop/Program/LeetCode/LeetCode_Cpp/String/Q1087_Brace Expansion.cpp">
 			<Option target="Q1087"/>
